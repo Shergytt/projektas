@@ -1,3 +1,5 @@
+
+<div class='main'>
 <form method="POST" action="{{route('book.store')}}">
    Title: <input type="text" name="book_title">
    ISBN: <input type="text" name="book_isbn">
@@ -11,3 +13,4 @@
    @csrf
    <button type="submit">ADD</button>
 </form>
+</div>
